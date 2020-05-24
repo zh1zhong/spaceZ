@@ -8,4 +8,8 @@ export default {
       },
     ],
   ],
+  alias: {
+    '@': require('path').resolve(__dirname, './src'),
+    '@components': require('path').resolve(__dirname, './src/components'),
+  },
 };

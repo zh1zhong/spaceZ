@@ -1,0 +1,6 @@
+@import '.src/components/Advice/styles.less';
+
+body,
+.uih-advice {
+  background: red;
+}

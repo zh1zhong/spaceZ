@@ -1,0 +1,12 @@
+@import '../style/themes/index';
+
+@message-prefix-cls: ~'@{uih-prefix}-advice';
+
+.@{message-prefix-cls} {
+  position: fixed;
+  top: 16px;
+  left: 0;
+  z-index: @zindex-message;
+  width: 100%;
+  pointer-events: none;
+}
